@@ -277,3 +277,101 @@ a {
     font-weight: 600;
     line-height: 100%;
 }
+
+.login {
+    width: 461px;
+    height: 426px;
+    box-shadow: -1px -1px #E0E0E0 inset;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.form__title {
+    display: flex;
+    width: 207px;
+    height: 41px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #2B788B;
+    font-family: Montserrat, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -1.28px;
+}
+
+.form__inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 355px;
+    padding: 36px;
+}
+
+.form__inputs-email {
+    color: #2B788B;
+    display: flex;
+    width: 0;
+    padding: 20px 279px 34px 39px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 100px;
+    margin-bottom: 36px;
+    background: #C3DCE3;
+}
+
+.form__inputs-password {
+    color: #2B788B;
+    display: flex;
+    width: 0;
+    padding: 20px 279px 34px 39px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #C3DCE3;
+}
+
+.form__wrapper {
+    position: relative;
+}
+
+.form__span {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    color: #2B788B;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.64px;
+}
+
+.email {
+    top: 35%;
+}
+
+.form__button {
+    display: flex;
+    width: 127px;
+    height: 55px;
+    padding: 14px 22px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background-color: #2B788B;
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.64px;
+}
